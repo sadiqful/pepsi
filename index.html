@@ -1,65 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style/style.css" />
+        <script src="./script/script.js" defer></script>
+        <title>Pepsi</title>
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/style.css">
-    <title>Pepsi</title>
-</head>
+    <body>
+        <section class="sec">
+            <header>
+                <a href="#"
+                    ><img src="./images/logo.png" alt="logo" class="logo" />
+                </a>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">What's New</a></li>
+                    <li><a href="#">Newsletter</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </header>
+            <div class="content">
+                <div class="textBox">
+                    <h2>That's what<br /><span>I like</span></h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Consequatur blanditiis vitae minus adipisci!
+                        Excepturi iste perferendis alias minima corporis
+                        molestiae odio molestias eveniet maxime deserunt Lorem
+                        ipsum dolor sit amet consectetur adipisicing elit. Quos
+                        veritatis consequatur iure labore molestiae.
+                    </p>
+                    <a href="#">View All Products</a>
+                </div>
+                <div class="imgBox">
+                    <img src="./images/pepsi001.png" class="pepsi" />
+                </div>
+            </div>
+            <ul class="thumb">
+                <li>
+                    <img 
+                        class="pepsi-blue"
+                        src="./images/pepsi001.png"
+                    />
+                </li>
 
-<body>
-    <section class="sec">
-        <header>
-            <a href="#"><img src="./images/logo.png" alt="logo" class="logo"> </a>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">What's New</a></li>
-                <li><a href="#">Newsletter</a></li>
-                <li><a href="#">Contact</a></li>
+                <li>
+                    <img 
+                        class="pepsi-silver"
+                        src="./images/pepsi002.png"
+                    />
+                </li>
+
+                <li>
+                    <img 
+                        class="pepsi-black"
+                        src="./images/pepsi003.png"
+                    />
+                </li>
             </ul>
-        </header>
-        <div class="content">
-            <div class="textBox">
-                <h2>That's what<br><span>I like</span></h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur blanditiis vitae minus
-                    adipisci! Excepturi iste perferendis alias minima corporis molestiae odio molestias eveniet maxime
-                    deserunt Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos veritatis consequatur iure
-                    labore molestiae.</p>
-                <a href="#">View All Products</a>
-            </div>
-            <div class="imgBox">
-                <img src="./images/pepsi001.png" class="pepsi">
-            </div>
-        </div>
-        <ul class="thumb">
-            <li><img src="./images/pepsi001.png" onclick="slider('pepsi001.png'); changeBg=('#00262be')">
-            </li>
 
-            <li><img src="./images/pepsi002.png" onclick="slider('pepsi002.png'); changeBg=('#e60c2c')">
-            </li>
-
-            <li><img src="./images/pepsi003.png" onclick="slider('pepsi003.png'); changeBg=('#1e1e1e')">
-            </li>
-        </ul>
-
-        <ul class="social">
-            <li><a href="#"><img src="./images/facebook.png"></a></li>
-            <li><a href="#"><img src="./images/instagram.png"></a></li>
-            <li><a href="#"><img src="./images/twitter.png"></a></li>
-        </ul>
-    </section>
-    <script>
-        function slider(anything) {
-            document.querySelector('.pepsi').src = anything;
-        }
-
-        function changeBg(color) {
-            const sec = document.querySelector('.sec');
-            sec.style.background = color;
-        }
-    </script>
-</body>
-
+            <ul class="social">
+                <li>
+                    <a href="#"><img src="./images/facebook.png" /></a>
+                </li>
+                <li>
+                    <a href="#"><img src="./images/instagram.png" /></a>
+                </li>
+                <li>
+                    <a href="#"><img src="./images/twitter.png" /></a>
+                </li>
+            </ul>
+        </section>
+    </body>
 </html>
