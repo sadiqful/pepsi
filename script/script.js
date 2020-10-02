@@ -24,8 +24,3 @@ pepsiBlack.addEventListener('click', () => {
     slider('../images/pepsi003.png');
     changeBg('#1e1e1e');
 });
-
-console.log(pepsi)
-console.log(pepsiSilver)
-console.log(pepsiBlue)
-console.log(pepsiBlack)
