@@ -109,6 +109,17 @@ header ul li a:hover {
   font-weight: 400;
 }
 
+.rotate img {
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+          transition: transform 0.5s ease-in-out;
+}
+
+.rotate img:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
 .content .imgBox {
   width: 25rem;
   justify-content: flex-end;
@@ -242,5 +253,7 @@ header ul li a:hover {
         font-size: 1.6rem;
         color: rgba(0, 0, 0, .7);
     }
+
+   
 
 };
