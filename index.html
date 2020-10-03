@@ -69,13 +69,13 @@
             </div>
         </div>
         <ul class="thumb">
-            <li><img src="./images/pepsi001.png" onclick="slider('pepsi001.png'); changeBg=('#00262be')">
+            <li><img src="./images/pepsi001.png" onclick="slider('pepsi001.png'); changeBg('#0062be')">
             </li>
 
-            <li><img src="./images/pepsi002.png" onclick="slider('pepsi002.png'); changeBg=('#e60c2c')">
+            <li><img src="./images/pepsi002.png" onclick="slider('pepsi002.png'); changeBg('#e60c2c')">
             </li>
 
-            <li><img src="./images/pepsi003.png" onclick="slider('pepsi003.png'); changeBg=('#1e1e1e')">
+            <li><img src="./images/pepsi003.png" onclick="slider('pepsi003.png'); changeBg('#1e1e1e')">
             </li>
         </ul>
 
@@ -85,16 +85,7 @@
             <li><a href="#"><img src="./images/twitter.png"></a></li>
         </ul>
     </section>
-    <script>
-        function slider(anything) {
-            document.querySelector('.pepsi').src = anything;
-        }
-
-        function changeBg(color) {
-            const sec = document.querySelector('.sec');
-            sec.style.background = color;
-        }
-    </script>
+    <script src="./script/script.js"></script>
 </body>
 
 </html>
