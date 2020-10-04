@@ -144,7 +144,7 @@ header ul li a:hover {
   list-style: none;
   margin: 0 20px;
   cursor: pointer;
-  transition: 0.5s;
+
 }
 
 .thumb li :hover {
@@ -153,6 +153,7 @@ header ul li a:hover {
 
 .thumb li img {
   max-width: 40px;
+  transition: 0.5s;
 }
 
 .social {
