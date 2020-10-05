@@ -130,7 +130,9 @@ header ul li a:hover {
 .content .imgBox img {
   max-width: 250px;
 }
-
+.textBox img{
+  width: 100%;
+}
 .thumb {
   position: absolute;
   display: flex;
