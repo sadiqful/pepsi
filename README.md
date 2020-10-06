@@ -1,1 +1,1 @@
-> Pepsi Official Website Clone
+> Pepsi Like Landing page
