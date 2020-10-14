@@ -104,9 +104,16 @@ header ul li a:hover {
   text-transform: uppercase;
   letter-spacing: 1;
   border-radius: 40px;
-  color: #111;
+  color: #fff;
+  background: transparent;
+  font-weight: 600;
+  border: 2px solid #fff;
+  transition: background-color 1s ease-out, color 1s ease-out;
+}
+
+.content .textBox a:hover {
   background: #fff;
-  font-weight: 400;
+  color: #0065c3;
 }
 
 .rotate img {
@@ -175,6 +182,10 @@ header ul li a:hover {
   margin: 5px 0;
   filter: invert(1);
   transform: scale(0.6);
+}
+
+.social li a:hover {
+  opacity: 0.5;
 }
 
 @media screen and (min-width: 720px){
