@@ -11,7 +11,11 @@ a {
     text-decoration: none;
 }
 
-a:hover, a:active{
+a:hover {
+  color: #dde0e2;
+}
+
+ a:active{
   color: white;
   background-color: black;
 }
@@ -53,6 +57,9 @@ header .logo {
 
 header ul {
   display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 50%;
 }
 
 header ul li {
@@ -63,7 +70,6 @@ header ul li a {
   display: inline-block;
   color: #fff;
   font-weight: 400;
-  margin-left: 40px;
   text-decoration: none;
 }
 
@@ -223,6 +229,7 @@ header ul li a:hover {
         justify-content: space-between;
         padding: 1rem 0;
         border-bottom: 1px solid rgba(255, 255, 255, .2);
+        margin: 0 25px;
     }
 
     .logo {
@@ -273,6 +280,20 @@ header ul li a:hover {
         color: rgba(0, 0, 0, .7);
     }
 
+    .content .textBox h2 {
+      font-size: 3.2em;
+      line-height: 1.2em;
+    }
+    
+    .content .textBox h2 span {
+      font-size: 1em;
+    }
    
+    section {
+      padding: 100px 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
 
 };
